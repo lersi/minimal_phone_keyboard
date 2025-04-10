@@ -3,6 +3,7 @@ package io.github.lersi.minimal_phone_keyboard
 import android.content.Context
 import android.os.VibrationEffect
 import android.os.Vibrator
+import android.os.VibratorManager
 import android.text.InputType
 import android.text.TextUtils
 import android.util.Log
@@ -149,7 +150,8 @@ class InputMethodService : AndroidInputMethodService() {
 
 	override fun onCreate() {
 		super.onCreate()
-		vibrator = getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+		val vibratorManager = this.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
+		vibrator = vibratorManager.defaultVibrator
 
 		val preferences = PreferenceManager.getDefaultSharedPreferences(this)
 		preferences.registerOnSharedPreferenceChangeListener { preferences, key ->

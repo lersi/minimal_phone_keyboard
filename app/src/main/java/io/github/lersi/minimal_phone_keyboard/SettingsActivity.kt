@@ -35,13 +35,13 @@ class SettingsActivity : AppCompatActivity() {
 						.setTitle("Reset settings")
 						.setMessage("Do you really want to reset all the settings to their default value?")
 						.setIcon(android.R.drawable.ic_dialog_alert)
-						.setPositiveButton(android.R.string.yes, DialogInterface.OnClickListener { dialog, which ->
+						.setPositiveButton("Yes", DialogInterface.OnClickListener { dialog, which ->
 							val editor = PreferenceManager.getDefaultSharedPreferences(context).edit()
 							editor.clear()
 							editor.commit()
 							setPreferencesFromResource(R.xml.preferences, rootKey)
 						})
-						.setNegativeButton(android.R.string.no, null)
+						.setNegativeButton("No", null)
 						.show()
 					true
 				}

@@ -9,7 +9,7 @@ android {
 
 	defaultConfig {
 		applicationId = "io.github.lersi.minimal_phone_keyboard"
-		minSdk = 29
+		minSdk = 31
 		targetSdk = 34
 		versionCode = 1
 		versionName = "1.0"
