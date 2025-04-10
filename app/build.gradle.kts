@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-	namespace = "io.github.oin.titanpocketkeyboard"
+	namespace = "io.github.lersi.minimal_phone_keyboard"
 	compileSdk = 34
 
 	defaultConfig {
-		applicationId = "io.github.oin.titanpocketkeyboard"
+		applicationId = "io.github.lersi.minimal_phone_keyboard"
 		minSdk = 29
-		targetSdk = 33
+		targetSdk = 34
 		versionCode = 1
 		versionName = "1.0"
 

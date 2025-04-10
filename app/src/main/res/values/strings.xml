@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TitanPocketKeyboard</string>
-    <string name="ime_label">TitanPocketKeyboard</string>
-    <string name="ime_settings">TitanPocketKeyboard Settings</string>
+    <string name="app_name">MPKeyboardOSS</string>
+    <string name="ime_label">MPKeyboardOSS</string>
+    <string name="ime_settings">MPKeyboardOSS Settings</string>
 </resources>

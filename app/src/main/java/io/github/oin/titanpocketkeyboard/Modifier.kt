@@ -1,4 +1,4 @@
-package io.github.oin.titanpocketkeyboard
+package io.github.lersi.minimal_phone_keyboard
 
 /**
  * A virtual modifier that can be used in the following ways:
