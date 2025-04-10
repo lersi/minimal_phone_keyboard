@@ -1,15 +1,18 @@
-**TitanPocketKeyboard** is an Android input method that entirely relies on the embedded keyboard of the Unihertz Titan Pocket and provides most features expected on a full-sized keyboard.
+> This is a fork of the repo https://github.com/oin/titanpocketkeyboard customized for the Minimal Phone instead
+>
+# minimal_phone_keyboard
+**minimal_phone_keyboard** is an Android input method that entirely relies on the embedded keyboard of the Minimal Phone and provides most features expected on a full-sized keyboard.
 
 In its current version, it does not have any user interface, and it is optimized for the French language in QWERTY (following the labels), as well as English, Spanish, Portuguese, and German.
 It can also fit other languages such as Italian and Dutch.
 
-https://github.com/oin/titanpocketkeyboard/assets/433830/59be4e0c-d9e0-4350-939b-1fdef5572e33
+
 
 # Installation
 
-1. Download the latest APK from the [releases](https://github.com/oin/TitanPocketKeyboard/releases) page.
+1. Download the latest APK from the [releases](https://github.com/lersi/minimal_phone_keyboard/releases) page.
 2. Install the APK on your Unihertz Titan Pocket.
-3. Go to `Settings` > `System` > `Languages & input` > `Virtual keyboard` > `Manage keyboards` and enable `TitanPocketKeyboard`.
+3. Go to `Settings` > `System` > `Languages & input` > `Virtual keyboard` > `Manage keyboards` and enable `MPKeyboardOSS`.
 
 # Features
 
